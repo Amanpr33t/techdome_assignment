@@ -1,0 +1,96 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 1;
+
+}
+
+.blog_button_navbar,
+.login_button_navbar,
+.signUp_button_navbar,
+.logout_button_navbar,
+.add_blog_button_navbar {
+    background-color: violet;
+    text-decoration: none;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #313131;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 11px;
+    border: none;
+}
+
+.blog_button_navbar {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.signUp_button_navbar {
+    width: 94px;
+    margin-right: 30px;
+}
+
+.login_button_navbar,
+.logout_button_navbar {
+    width: 78px;
+    margin-right: 30px;
+}
+
+.add_blog_button_navbar {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.login_button_navbar:hover,
+.blog_button_navbar:hover,
+.signUp_button_navbar:hover,
+.logout_button_navbar:hover,
+.add_blog_button_navbar:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+@media screen and (max-width:393px) {
+
+    .blog_button_navbar,
+    .signUp_button_navbar,
+    .login_button_navbar,
+    .logout_button_navbar,
+    .add_blog_button_navbar {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:317px) {
+    .blog_button_navbar {
+        width: 90px;
+    }
+
+    .signUp_button_navbar {
+        width: 84px;
+    }
+
+    .login_button_navbar,
+    .logout_button_navbar {
+        width: 68px;
+    }
+
+    .add_blog_button_navbar {
+        width: 90px;
+    }
+}
